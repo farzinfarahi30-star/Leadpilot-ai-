@@ -6,6 +6,11 @@ compatibility_date = "2026-08-20"
 directory = "public"
 binding = "ASSETS"
 
+[[d1_databases]]
+binding = "DB"
+database_name = "leadpilot-db"
+database_id = "98d5d5b4-6256-4e9d-acc2-1cdbc535cccf"
+
 [vars]
 APP_NAME = "LeadPilot AI"
 PRICE_GBP = "49"
