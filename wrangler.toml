@@ -10,10 +10,5 @@ binding = "ASSETS"
 APP_NAME = "LeadPilot AI"
 PRICE_GBP = "49"
 
-[[d1_databases]]
-binding = "DB"
-database_name = "leadpilot"
-database_id = "98d5d5b4-6256-4e9d-acc2-1cdbc535cccf"
-
 [triggers]
 crons = ["*/15 * * * *"]
