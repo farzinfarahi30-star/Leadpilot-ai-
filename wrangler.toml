@@ -10,8 +10,10 @@ binding = "ASSETS"
 APP_NAME = "LeadPilot AI"
 PRICE_GBP = "49"
 
-# D1 will be bound to this Worker after deployment from the Cloudflare dashboard.
-# The Worker code is written to use the DB binding once it is attached.
+[[d1_databases]]
+binding = "DB"
+database_name = "leadpilot"
+database_id = "98d5d5b4-6256-4e9d-acc2-1cdbc535cccf"
 
 [triggers]
 crons = ["*/15 * * * *"]
