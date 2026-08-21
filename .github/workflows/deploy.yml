@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Wrangler
+      - name: Install Wrangler 
         run: npm install -g wrangler
 
       - name: Deploy
